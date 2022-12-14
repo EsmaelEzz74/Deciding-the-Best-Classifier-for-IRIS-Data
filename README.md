@@ -14,7 +14,6 @@
 - For each class I show the dist plot to see the variation in cm   
 - <img src = "https://user-images.githubusercontent.com/85246622/207584573-5a5e4f2a-db03-4e49-8f3a-d1abd668ad24.png" width="400" height="400"> <img src = "https://user-images.githubusercontent.com/85246622/207584590-8c2fa1ef-0b56-4fd0-82b0-10bcfe82e9b0.png" width="400" height="400">
 - <img src = "https://user-images.githubusercontent.com/85246622/207584618-84309268-e845-43c3-a74a-96648d7b00cc.png" width="400" height="400"> <img src = "https://user-images.githubusercontent.com/85246622/207584640-6d5a53e0-4e2f-4083-b835-16353f79441f.png" width="400" height="400">
-
 ---------------------------------------------
 - And by using the seaborn pair plot I found the relationship between each column and the other
  - <img src = "https://user-images.githubusercontent.com/85246622/207584671-1f76accc-da6d-4ae3-affe-573c130b971b.png" width="400" height="400">
@@ -27,7 +26,6 @@
 - print the average number of correct predictions 
 - draw the line graph to show the relationship between the number of the K_neighbors VS the correct & incorrect predictions AND the test size VS the train & test score
 - <img src = "https://user-images.githubusercontent.com/85246622/207641559-c5bcce34-5347-41c6-a754-f6728fb7990c.png" width="400" height="400" > <img src = "https://user-images.githubusercontent.com/85246622/207641637-d7f2c1aa-04d0-482b-a978-9a91e6f729c6.png" width="400" height="400" >
-
 ---------------------------------------------
 - For a general purpose function I coded a function that takes the data and the model as parameters to perform :
 * for the test size in the list of test sizes with 10 values from  0.15 to 0.55 increasing by 0.05 I split the data into train and test size then apply sklearn.preprocessing's MinMaxScaler to do the data normalization 
